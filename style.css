@@ -1,0 +1,232 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    background: #E5E5E5;
+    padding-bottom: 20px;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background: #110C35;
+    width: 300px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 8px;
+    padding-top: 100px;
+}
+.sidebar div{
+    width: 229px;
+    height: 27px;
+    left: 37px;
+    top: 128px;
+    background: #434D64;
+    opacity: 0.3;
+    border-radius: 8px;
+    margin: 10px 20px 10px 30px;
+}
+.centerpiece{
+    display: flex;
+    flex-flow: column;
+    margin-left: 20px;
+    width: 1250px;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.centerpiece .navbar h4{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #727A8B;
+}
+.centerpiece .left-navbar .note{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #5141A4;
+
+}
+.left-navbar{
+    display: flex;
+}
+.right-navbar{
+    display: flex;
+}
+.centerpiece .left-navbar .menu-icon{
+    width: 50px;
+    height: 12px;
+    margin-left: -15px;
+    margin-top: 18px;
+    color: #434D64;
+}
+.centerpiece .left-navbar .arrow-icon{
+    width: 12px;
+    height: 12px;
+    margin: 18px 8px 0px 8px;
+    color: #727A8B;
+}
+.centerpiece .right-navbar .bell-icon{
+    width: 12px;
+    height: 12px;
+    margin: 18px 8px 0px 8px;
+    color: #727A8B;
+}
+.images{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.list-icon{
+    width: 50px;
+    height: 12px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.navbar .bottom-heading-icon{
+    display: flex;
+    justify-content: end;
+}
+.grid-icon{
+    width: 50px;
+    height: 12px;
+    right: 0px;
+    color: #434D64;
+}
+.centerpiece .bottom-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    padding: 0px 50px 0px 20px ;
+}
+.heading .top-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading .top-heading .heading-button{
+    margin-top: 20px;
+
+}
+.heading .top-heading .heading-button button{
+    color: #727A8B;
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 4px, 16px, 4px, 16px;
+    border: 1px solid #727A8B;
+    background-color: #FFFFFF;
+}
+.heading .top-heading h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.heading .bottom-heading span{
+    font-size: 14px;
+    color: #5141A4;
+    border-bottom: 2px solid #5141A4;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.heading .bottom-heading{
+    margin-bottom: 5px;
+}
+.heading .top-heading .heading-button .colored-button{
+    background-color: #5141A4;
+    color: #FFFFFF;
+    height: 40px;
+    width: 119px;
+    border-radius: 4px;
+    padding: 4px, 16px, 4px, 16px;
+    font-size: 12px;
+}
+.employee-table-header{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 8px 8px 0px 0px;
+    padding: 0px 60px 0px 20px ;
+    border-bottom: #434D64 1px solid;
+    font-size: 12px;
+}
+.employee-details{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 50px 0px 20px ;
+    border-bottom: #727A8B 1px solid;
+    font-size: 12px;
+}
+.employee-details div h5{
+    margin: 0px;
+    color: #727A8B;
+}
+.employee-details div h4{
+    margin-bottom: 0px;
+    color: #434D64;
+}
+.employee-details > h4:nth-child(2){
+    color: #434D64;
+}
+.employee-details > h4:nth-child(4){
+    color: #727A8B;
+}
+.employee-details button{
+    color: #5141A4;
+    margin-top: 15px;
+    border: #5141A4 1px solid;
+    background-color: #FFFFFF;
+    padding: 8px;
+    width: 65px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.employee-info{
+    display: flex;
+}
+.employee-info h2{
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 6px 10px 6px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.employee-details .category h4{
+    color: #0581F3;
+}
+.employee-details .category{
+    display: flex;
+}
+.employee-details .category div{
+    width: 12px;
+    border-radius: 50%;
+    background-color: #0581F3;
+    height: 12px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.employee-details .category .red{
+    color: #F04C4C;
+}
+.employee-details .category .purple{
+    color: #5141A4;
+}
+.employee-details .category .red-circle{
+    background-color: #F04C4C;
+}
+.employee-details .category .purple-circle{
+    background-color: #5141A4;
+}
